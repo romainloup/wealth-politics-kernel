@@ -2,7 +2,7 @@
 _A Kernel and Optimal Transport Approach_
 
 This repository reproduces the results of the paper:
-**“Spatial Divides of Wealth Inequality and Politics in Switzerland: A Kernel and Optimal Transport Approach.”**
+**"Spatial Divides of Wealth Inequality and Politics in Switzerland: A Kernel and Optimal Transport Approach."**
 
 We reconstruct municipal income distributions from Swiss federal tax classes,
 build economic/political/linguistic/spatial kernels, compare them at the
