@@ -5,6 +5,19 @@
 # Date   : 2025-09-22
 # =============================================================================
 
+# ---- Packages ----
+# 'pacman' pour load/install all needed packages
+if (!requireNamespace("pacman", quietly = TRUE)) install.packages("pacman")
+pacman::p_load(
+  here, fs, glue, withr, # chemins & env
+  readr, readxl, yaml,   # I/O
+  dplyr, tidyr, purrr, stringr, tibble, # wrangling
+  ggplot2, ggrepel, scales, patchwork,  # viz
+  sf, lwgeom, units,                     # géo
+  Matrix, transport,                     # maths
+  stats, utils                           # base
+)
+
 # Unzip big file for GitHub
 zip_files = list.files(path = "data", pattern="\\.zip$", full.names = TRUE)
 unzip(zip_files, exdir="data")
