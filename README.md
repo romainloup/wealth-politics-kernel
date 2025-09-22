@@ -8,3 +8,5 @@ We reconstruct municipal income distributions from Swiss federal tax classes,
 build economic/political/linguistic/spatial kernels, compare them at the
 **kernel level** (RV, z-scores) and at the **factor level** (correlations between first MDS axes),
 and evaluate explanatory power via weighted regressions and residual maps.
+
+⚠️🚧 GitHub repo in construction...
