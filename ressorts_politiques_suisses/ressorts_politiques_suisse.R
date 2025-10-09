@@ -11,7 +11,9 @@
 #              de diagonale nulle de dimension 2126 x 2126
 
 coord_muni = read.csv("coord_muni.csv", row.names = F)
-dist_pol   = read.csv("dist_pol.csv", row.names = F)
+dist_pol_1 = read.csv("dist_pol_1.csv", row.names = F) # fichier séparé en deux, trop volumineux pour GitHub
+dist_pol_2 = read.csv("dist_pol_2.csv", row.names = F)
+dist_pol   = rbind(dist_pol_1, dist_pol_2)
 
 ## --- Distances euclidiennes en WGS84
 euclidean_distance <- function(p1, p2) {
