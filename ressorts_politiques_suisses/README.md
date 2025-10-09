@@ -1,19 +1,19 @@
-# Déformer la carte de la Suisse selon les distances politiques
+# Déformer la carte de la Suisse selon les distances politiques 🇨🇭
 Cette contribution propose une méthode simple pour visualiser l'effet des distances politiques entre communes suisses dans le but de cartographier le résultat. En se basant sur les coordonnées géographiques du centre des communes et d'une matrice de dissimilarité politique issue des votations fédérales, nous ajustons ces coordonnées avec un algorithme itératif de type ressorts. Il est alors possible de produire une carte où les proximités politiques se traduisent par des rapprochements spatiaux, tandis que les oppositions se traduisent par des éloignements, tout en conservant un lien avec l'emplacement initial de la commune.
 
-## Données
+## Données 📁
 
 Les données utilisées pour cet algorithme ainsi que les calculs de distances sont les suivantes:
 
-### Coordonnées géographiques
+### Coordonnées géographiques 🌍
 
 Nous utilisons les centres économiques des $n =2126$ communes suisses de 2024, qui définissent les positions initiales $(x_i^0,y_i^0)$ qui sont les coordonnées géographique WGS84.
 
-### Distances politiques
+### Distances politiques 💼
 
 Nous disposons d'une matrice euclidienne carrée $\mathbf{D}\_{\text{pol}} = (d^{\text{pol}}\_{ij})$ de dissimilarité politique, calculée à partir des résultats des 381 votations fédérales. Cette matrice est symétrique, non négative et de diagonale nulle. La valeur $d^{\text{pol}}_{ij}$ exprime à quel point les communes $i$ et $j$ diffèrent dans leurs comportements de vote. Cette matrice est ici normalisée entre 0 et 1 afin d'être comparable aux distances géographiques et de permettre un choix plus aisé des paramètres.
 
-### Algorithme
+### Algorithme 💻
 
 Soit $X = (x_i,y_i)_{i=1}^n$ les coordonnées spatiales de départ.
 
@@ -39,10 +39,10 @@ tandis que celles plus éloignées se repoussent.
 
 Après un nombre fini d'itérations (ici 50), le système converge vers une configuration stable où l'équilibre entre les forces est atteint.
 
-### Résultats
+### Résultats 📈
 <figure>
     <img src="deformation_carte.png" alt="Déformation politico-géographique de la Suisse. A la source des flèches
 rouge : positions géographiques initiales. Les points illustrent les positions ajustées,
 pondérées par les distances politiques. Les couleurs des points reflètent la langue
-majoritaire de chaque commune et la taille des point la population des communes." style="width:50%">
+majoritaire de chaque commune et la taille des point la population des communes." style="width:80%">
 </figure>
