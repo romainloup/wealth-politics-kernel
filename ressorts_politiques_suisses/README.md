@@ -41,7 +41,7 @@ Après un nombre fini d'itérations (ici 50), le système converge vers une conf
 
 ### Résultats
 <figure>
-    <img src="deformation_carte.pdf" alt="Déformation politico-géographique de la Suisse. A la source des flèches
+    <img src="deformation_carte.png" alt="Déformation politico-géographique de la Suisse. A la source des flèches
 rouge : positions géographiques initiales. Les points illustrent les positions ajustées,
 pondérées par les distances politiques. Les couleurs des points reflètent la langue
 majoritaire de chaque commune et la taille des point la population des communes." style="width:50%">
