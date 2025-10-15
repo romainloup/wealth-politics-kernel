@@ -26,5 +26,19 @@ divisions remain largely dominant structuring forces of political explanation. T
   - "vote_theme_names": theme names of votes
   - "vote_yes_2024": pourcentage of 'yes' per municipality
   - "f": vector of weight of each municipality
+- ```02_build_kernels```
+  - Build dissimilarity matrices (D) and f-centered kernels (K)
+- ```03_produce_results```
+  - Compute kernel-level (RV, z) and factor-level (axis-1) associations, partial correlations, and weighted regressions. Export tables & figs.
+- ```RV_funs```
+  - function that produces
+    - "Y_list":         MDS factors
+    - "Delta_list":     Delta values
+    - "RVi":            RV value between kernels
+    - "E_RV":           Expected value between kernels
+    - "Var_RV"          Variance between kernels
+    - "Z_RV"            Z-score between kernels
+    - "eigen_val_list": Eigenvalues et eigenvectors of each kernel
+    - "nb_lambda_pos":  Number of positive Lambda values per kernel
 
 ⚠️🚧 GitHub repo in construction...
