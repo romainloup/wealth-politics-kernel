@@ -14,9 +14,9 @@ This code investigates how economic, political, spatial, and linguistic factors 
 divisions remain largely dominant structuring forces of political explanation. This study highlights the potential of MDS visualization and the kernel associations in analyzing spatially embedded political behavior.
 
 ## 🧩 Code organisation
-- ```01_download_data``` : load data
-  - "detailed_language_2024"
-  - "distance_mat_2024"
+- ```01_download_data```
+  - "detailed_language_2024":  id of each municipality detail of spoken languages
+  - "distance_mat_2024":       test
   - "IFD_tax_classes_2024"
   - "IFD_tax_wealth_2024"
   - "time_mat_2024"
