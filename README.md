@@ -15,16 +15,16 @@ divisions remain largely dominant structuring forces of political explanation. T
 
 ## 🧩 Code organisation
 - ```01_download_data```
-  - "detailed_language_2024":  id of each municipality detail of spoken languages
-  - "distance_mat_2024":       testd
-  - "IFD_tax_classes_2024"
-  - "IFD_tax_wealth_2024"
-  - "time_mat_2024"
-  - "vote_info_2024"
-  - "vote_nb_valid_2024"
-  - "vote_nb_yes_2024"
-  - "vote_theme_names"
-  - "vote_yes_2024"
-  - "f"
+  - "detailed_language_2024": id of each municipality detail of spoken languages
+  - "distance_mat_2024": squared matrix of road distances between municipalities in meters
+  - "IFD_tax_classes_2024": 10 classes of swiss taxes in CHF per municipality
+  - "IFD_tax_wealth_2024": 10 classes of swiss taxes payers per municipality
+  - "time_mat_2024": squared matrix of road time between municipalities in seconds
+  - "vote_info_2024": name of each vote object
+  - "vote_nb_valid_2024": valid ballot
+  - "vote_nb_yes_2024":  number of 'yes'
+  - "vote_theme_names": theme names of votes
+  - "vote_yes_2024": pourcentage of 'yes' per municipality
+  - "f": vector of weight of each municipality
 
 ⚠️🚧 GitHub repo in construction...
