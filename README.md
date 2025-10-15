@@ -29,7 +29,8 @@ divisions remain largely dominant structuring forces of political explanation. T
 - ```02_build_kernels```
   - Build dissimilarity matrices (D) and f-centered kernels (K)
 - ```03_produce_results```
-  - Compute kernel-level (RV, z) and factor-level (axis-1) associations, partial correlations, and weighted regressions. Export tables & figs.
+  - Compute kernel-level (RV, z) and factor-level (axis-1) associations, partial correlations, and weighted regressions.
+  - Export tables & figures
 - ```RV_funs```
   - function that produces
     - "Y_list":         MDS factors
