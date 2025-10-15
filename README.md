@@ -43,4 +43,4 @@ divisions remain largely dominant structuring forces of political explanation. T
     - "nb_lambda_pos":  Number of positive Lambda values per kernel
    
 ## 🇨🇭🗺️ Other work
-Folder ```ressorts_politiques_suisses``` proposes an algorithm called “Distorting the map of Switzerland according to political distances” (in French).
+Folder ```ressorts_politiques_suisses``` proposes an algorithm called _“Distorting the map of Switzerland according to political distances”_ (in French).
