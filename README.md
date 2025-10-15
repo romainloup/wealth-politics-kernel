@@ -42,4 +42,5 @@ divisions remain largely dominant structuring forces of political explanation. T
     - "eigen_val_list": Eigenvalues et eigenvectors of each kernel
     - "nb_lambda_pos":  Number of positive Lambda values per kernel
    
-🇨🇭🗺️ Folder ```ressorts_politiques_suisses``` proposes an algorithm called “Distorting the map of Switzerland according to political distances” (in French).
+## 🇨🇭🗺️ Other work
+Folder ```ressorts_politiques_suisses``` proposes an algorithm called “Distorting the map of Switzerland according to political distances” (in French).
